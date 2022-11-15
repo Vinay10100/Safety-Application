@@ -6,9 +6,9 @@ import 'package:permission_handler/permission_handler.dart' as appPermissions;
 import 'package:pinput/pin_put/pin_put.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sms_maintained/sms.dart' as smsSender;
-import 'package:womensafteyhackfair/Dashboard/ContactScreens/phonebook_view.dart';
-import 'package:womensafteyhackfair/Dashboard/Home.dart';
-import 'package:womensafteyhackfair/Dashboard/ContactScreens/MyContacts.dart';
+import 'package:womensafteyhackfair/allfile/ContactScreens/phonebook_view.dart';
+import 'package:womensafteyhackfair/allfile/Home.dart';
+import 'package:womensafteyhackfair/allfile/ContactScreens/MyContacts.dart';
 
 class Dashboard extends StatefulWidget {
   final int pageIndex;

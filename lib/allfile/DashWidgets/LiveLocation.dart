@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:womensafteyhackfair/Dashboard/DashWidgets/MapPage/BusStationCard.dart';
-import 'package:womensafteyhackfair/Dashboard/DashWidgets/MapPage/HospitalCard.dart';
-import 'package:womensafteyhackfair/Dashboard/DashWidgets/MapPage/PoliceStationCard.dart';
+import 'package:womensafteyhackfair/allfile/DashWidgets/MapPage/BusStationCard.dart';
+import 'package:womensafteyhackfair/allfile/DashWidgets/MapPage/HospitalCard.dart';
+import 'package:womensafteyhackfair/allfile/DashWidgets/MapPage/PoliceStationCard.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 

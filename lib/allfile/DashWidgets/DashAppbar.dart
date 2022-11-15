@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:womensafteyhackfair/Dashboard/Settings/SettingsScreen.dart';
+import 'package:womensafteyhackfair/allfile/Settings/SettingsScreen.dart';
 // import 'package:womensafteyhackfair/constants.dart';
 
 class DashAppbar extends StatelessWidget {
