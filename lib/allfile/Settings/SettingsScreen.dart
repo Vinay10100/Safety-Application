@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:womensafteyhackfair/allfile/Settings/ChangePin.dart';
 import 'package:womensafteyhackfair/background_services.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -14,12 +13,6 @@ class SettingsScreen extends StatefulWidget {
 
 class _SettingsScreenState extends State<SettingsScreen> {
   bool switchValue = false;
-  // Future<int> checkPIN() async {
-  //   SharedPreferences prefs = await SharedPreferences.getInstance();
-  //   int pin = (prefs.getInt('pin') ?? -1111);
-  //   print('User $pin .');
-  //   return pin;
-  // }
 
   @override
   void initState() {
@@ -57,15 +50,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
                   return ListTile(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) =>
-                              ChangePinScreen(pin: snapshot.data),
-                        ),
-                      );
-                    },
                     leading: CircleAvatar(
                       backgroundColor: Colors.grey[200],
                       child: Center(

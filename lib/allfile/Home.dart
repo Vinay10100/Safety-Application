@@ -5,7 +5,6 @@ import 'package:flutter/rendering.dart';
 import 'package:womensafteyhackfair/allfile/DashWidgets/DashAppbar.dart';
 import 'package:womensafteyhackfair/allfile/DashWidgets/Emergency.dart';
 import 'package:womensafteyhackfair/allfile/DashWidgets/LiveLocation.dart';
-import 'package:womensafteyhackfair/allfile/DashWidgets/SafeHome.dart';
 
 class Home extends StatefulWidget {
   const Home({Key key}) : super(key: key);
@@ -46,7 +45,7 @@ class _HomeState extends State<Home> {
                 Emergency(),
 
 
-                SafeHome(),
+              //  SafeHome(),
                 Padding(
                   padding:
                   const EdgeInsets.only(left: 16.0, bottom: 10, top: 10),

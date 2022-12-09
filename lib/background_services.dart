@@ -60,7 +60,7 @@ void onStart() async {
   String screenShake = "Be strong, We are with you!";
   ShakeDetector.autoStart(
 
-      shakeThresholdGravity: 9,
+      shakeThresholdGravity: 5,
       onPhoneShake: () async {
         print("Test 1");
         if (await Vibration.hasVibrator()) {
