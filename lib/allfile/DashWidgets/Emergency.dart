@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:womensafteyhackfair/allfile/DashWidgets/EmergenciesPages/AmbulanceEmergency.dart';
-import 'package:womensafteyhackfair/allfile/DashWidgets/EmergenciesPages/MahilaHelpline.dart';
-import 'package:womensafteyhackfair/allfile/DashWidgets/EmergenciesPages/PoliceEmergency.dart';
+import 'package:womensaftey/allfile/DashWidgets/EmergenciesPages/AmbulanceEmergency.dart';
+import 'package:womensaftey/allfile/DashWidgets/EmergenciesPages/MahilaHelpline.dart';
+import 'package:womensaftey/allfile/DashWidgets/EmergenciesPages/PoliceEmergency.dart';
 
 class Emergency extends StatelessWidget {
   const Emergency({Key key}) : super(key: key);

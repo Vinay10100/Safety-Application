@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart' as appPermissions;
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:womensafteyhackfair/allfile/Home.dart';
+import 'package:womensaftey/allfile/Home.dart';
 
 
 class Dashboard extends StatefulWidget {

@@ -2,9 +2,9 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:womensafteyhackfair/allfile/DashWidgets/DashAppbar.dart';
-import 'package:womensafteyhackfair/allfile/DashWidgets/Emergency.dart';
-import 'package:womensafteyhackfair/allfile/DashWidgets/LiveLocation.dart';
+import 'package:womensaftey/allfile/DashWidgets/DashAppbar.dart';
+import 'package:womensaftey/allfile/DashWidgets/Emergency.dart';
+import 'package:womensaftey/allfile/DashWidgets/LiveLocation.dart';
 
 class Home extends StatefulWidget {
   const Home({Key key}) : super(key: key);
